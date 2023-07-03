@@ -1,0 +1,19 @@
+{
+	"name": "smart-builder-sdk",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"deploy": "node src/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@archwayhq/arch3.js": "^0.4.0",
+		"@cosmjs/proto-signing": "^0.31.0",
+		"base64-js": "^1.5.1",
+		"dotenv": "^16.3.1",
+		"long": "^5.2.3"
+	}
+}
